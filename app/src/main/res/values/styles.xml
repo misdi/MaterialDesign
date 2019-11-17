@@ -1,0 +1,96 @@
+<resources>
+
+    <!-- Base application theme. -->
+<!--    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/primaryLightColor</item>
+
+<!--        for general shapes used-->
+<!--        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.AppTheme.SmallComponent</item>-->
+<!--        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.AppTheme.MediumComponent</item>-->
+<!--        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.AppTheme.LargeComponent</item>-->
+    </style>
+
+
+
+
+
+
+<!--    TopLeft-->
+    <style name="Shape.TopLeft.Button" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.SmallComponent</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.SmallComponent" parent="">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">4dp</item>
+        <item name="cornerFamilyTopLeft">cut</item>
+        <item name="cornerSizeTopLeft">100dp</item>
+    </style>
+
+
+<!--    TopRight-->
+    <style name="Shape.TopRight.Button" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.SmallComponent.Right</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.SmallComponent.Right" parent="">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">4dp</item>
+        <item name="cornerFamilyTopRight">cut</item>
+        <item name="cornerSizeTopRight">100dp</item>
+    </style>
+
+
+    <!--    BottomRight-->
+    <style name="Shape.BottomRight.Button" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.SmallComponent.Right.Bottom</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.SmallComponent.Right.Bottom" parent="">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">4dp</item>
+        <item name="cornerFamilyBottomRight">cut</item>
+        <item name="cornerSizeBottomRight">100dp</item>
+    </style>
+
+
+    <!--    BottomLeft-->
+    <style name="Shape.BottomLeft.Button" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.SmallComponent.Left.Bottom</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.SmallComponent.Left.Bottom" parent="">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">4dp</item>
+        <item name="cornerFamilyBottomLeft">cut</item>
+        <item name="cornerSizeBottomLeft">100dp</item>
+    </style>
+
+
+
+
+
+
+
+<!--    for general shapes-->
+    <style name="ShapeAppearance.AppTheme.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">4dp</item>
+        <item name="cornerFamilyTopRight">rounded</item>
+        <item name="cornerSizeTopRight">110dp</item>
+    </style>
+
+    <style name="ShapeAppearance.AppTheme.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="ShapeAppearance.AppTheme.LargeComponent" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">4dp</item>
+    </style>
+
+
+
+
+</resources>
